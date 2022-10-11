@@ -1,0 +1,235 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: beige;
+    scroll-behavior: smooth;
+}
+.container
+{
+    width: 1070px;
+    margin: auto;
+}
+.header .links
+{
+    background-color: rgb(226, 226, 235);
+    overflow: hidden;
+    z-index: 888;
+    position: fixed;
+    width: 100%;
+}
+.header .links h2 
+{
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(12, 12, 151)
+}
+.header .links ul
+{
+    float: right;
+    list-style: none;
+    overflow: hidden;
+}
+.header .links ul li 
+{
+    float: left;
+    display: inline;
+    padding: 10px;
+    font-family: tahomaa;
+}
+.header .links ul li a:hover
+{
+    color: rgb(145, 32, 32);
+    font-weight: bold;
+}
+.header .navigation
+{
+    background-image: url('../img/images/background13.jpg');
+    background-size: cover;
+    height: 600px;
+    padding-top: 140px;
+    line-height: 1;
+}
+.header .navigation .icon
+{
+    padding-top: 120px;
+    color: white;
+    font-family: arial;
+}
+.header .navigation .icon button
+{
+    border-radius: 10px;
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    line-height: 35px;
+    color: white;
+    font-size: 15px;
+    margin-left: 75px;
+    border: 1px solid blue;
+    transition: all .5s ease-in-out;
+}
+.header .navigation .icon button:hover
+{
+    transform: scale(1.05,1.05);
+}
+.header .navigation .icon ul
+{
+    list-style: none;
+    overflow: hidden;
+}
+.header .navigation .icon ul li
+{
+    display: inline;
+    padding-right: 10px;
+    transition: all .5s ease-in-out;
+}
+.header .navigation .icon ul li img:hover
+{
+    transform: scale(1.08);
+}
+.header .navigation .icon ul li img
+{
+    width: 35px;
+    height: 35px;
+    transition: all .5s ease-in-out;
+}
+.service h1
+{
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    color: rgb(10, 10, 158);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.service .collection .firstdiv, .service .collection .seconddiv , .service .collection .thirddiv
+{
+    float: left;
+    width: 27%;
+    border: 1px solid wheat;
+    text-align: center;
+    margin-right: 22px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px rgb(179, 179, 155) , -5px -5px 4px rgb(179, 179, 155);
+    line-height: 1.7;
+    transition: all .5s ease-in-out;
+}
+.service .collection .firstdiv:hover, .service .collection .seconddiv:hover , .service .collection .thirddiv:hover
+{
+    transform: scale(1.05,1.05);
+}
+.firstdiv h2 , .seconddiv h2 , .thirddiv h2
+{
+    color: blue;
+}
+
+.firstdiv p , .seconddiv p , .thirddiv p
+{
+    color: gray;
+}
+.clear
+{
+    clear: both;
+}
+.project
+{
+    margin-top: 85px;
+    text-align: center;
+}
+.project h2
+{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+}
+.project img
+{
+    width: 30%;
+    height: 250px;
+    border-radius: 13px;
+    margin: 15px;
+    border: 1px solid white;
+    transition: all .5s ease-in-out;
+}
+.project img:hover
+{
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+}
+.together
+{
+    margin-top: 85px;
+    text-align: center;
+}
+.together h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+    padding-top: 10px;
+    color: blue;
+}
+.phone , .email
+{
+    float: left;
+    border: 1px solid rgb(184, 166, 166);
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px rgb(151, 151, 145) , -8px -8px 5px rgb(151, 151, 145);
+    margin: 15px;
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+    transition: all .5s ease-in-out;
+}
+.phone img , .email img
+{
+    width: 100px;
+    height: 100px;
+}
+.phone:hover , .email:hover
+{
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+}
+.phone
+{
+    margin-left: 220px;
+}
+.footer
+{
+    margin-top: 60px;
+    color: white;
+    background-color: black;
+    height: 70px;
+    line-height: 70px;
+    padding: 10px;
+}
+.footer h2
+{
+    float: left;
+    margin-top: -1px;
+}
+.footer img
+{
+    padding-top: 20px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    float: right;
+    transition: all .5s ease-in-out;
+}
+.footer img:hover
+{
+    transform: scale(1.07,1.07);
+}
